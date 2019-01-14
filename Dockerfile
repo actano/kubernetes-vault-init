@@ -1,4 +1,4 @@
-FROM rplan/vault-template as vault-template
+FROM rplan/vault-template:1.0.0 as vault-template
 
 FROM tutum/curl as download
 
